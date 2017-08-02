@@ -1,0 +1,11 @@
+version: '2'
+services:
+  postgresql:
+    scale: 1
+    start_on_create: true
+  gitlab:
+    scale: 1
+    start_on_create: true
+  redis:
+    scale: 1
+    start_on_create: true
